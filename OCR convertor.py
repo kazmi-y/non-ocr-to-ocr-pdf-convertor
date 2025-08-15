@@ -27,6 +27,7 @@ def add_ocr_to_pdf(input_pdf_path, output_pdf_path, languages='eng'):
         print(f"Error during OCR process: {e}")
 
 # Example usage:
-input_pdf = r'F:\New folder\OFFICE_ORDER_29072025[1].pdf'
+input_pdf = r'F:\New folder\OFFICE_ORDER.pdf'
 output_pdf = r'F:\New folder\Output.pdf'
 add_ocr_to_pdf(input_pdf, output_pdf)
+
